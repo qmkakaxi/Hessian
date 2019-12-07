@@ -1,4 +1,4 @@
-# Hessian
+# Hessia of model.parameters()
 
 
 
@@ -13,3 +13,7 @@ python HessianMarti.py
 ```
 python HessianVectorProduct.py
 ```
+
+
+提醒：模型的参数数量一般都十分巨大，如非必要，请海森向量积(HessianVectorProduct)避免使用海森矩阵(HessianMartix)。
+备注：如果您想对您对模型计算海森矩阵(HessianMartix)和海森向量积(HessianVectorProduct)，只需要加入在Nets.py中加入您的网络结构并且加载您对数据即可。
