@@ -1,4 +1,4 @@
-# Hessia of model.parameters()
+# Hessian of model.parameters()
 
 ## 环境：
  1. python 3.5.2  
